@@ -1,0 +1,27 @@
+{
+	"key.category.light-level-overlay.main": "Light Level Overlay",
+	"key.light-level-overlay.toggle": "Toggle light overlay",
+	"key.light-level-overlay.mode": "Switch crosses / numbers",
+
+	"light-level-overlay.message.on": "Light overlay on (%s)",
+	"light-level-overlay.message.off": "Light overlay off",
+
+	"light-level-overlay.display_mode.crosses": "Crosses",
+	"light-level-overlay.display_mode.numbers": "Numbers",
+
+	"light-level-overlay.config.title": "Light Level Overlay",
+	"light-level-overlay.config.category.overlay": "Overlay",
+	"light-level-overlay.config.keys_info": "%s turns the overlay on and off. Keys are under Options > Controls > Key Binds > Light Level Overlay, including one (unbound at first) that switches between crosses and numbers.",
+	"light-level-overlay.config.display_mode": "Show",
+	"light-level-overlay.config.display_mode.tooltip": "Crosses: a cross wherever monsters can spawn.\nRed: at any time. Yellow: only at night,\nbecause the sky lights it by day.\nNumbers: the block light level on every block\nyou can stand on, with every 0 in red.",
+	"light-level-overlay.config.show_water": "Show water",
+	"light-level-overlay.config.show_water.tooltip": "Marks on water where drowned can spawn.\nDrowned spawn at any depth, so the mark on the surface\nis for the darkest spot in the water below it.\nIn numbers mode, blue numbers are water that is lit enough.",
+	"light-level-overlay.config.show_night_spawns": "Show night-only spawns",
+	"light-level-overlay.config.show_night_spawns.tooltip": "Yellow crosses on dark spots under the open sky,\nwhere monsters only spawn at night.\nTurn off to see only the always-dark (red) spots.\nNumbers mode shows every 0 in red either way.",
+	"light-level-overlay.config.numbers_face_you": "Numbers face you",
+	"light-level-overlay.config.numbers_face_you.tooltip": "Yes: numbers turn to read upright from wherever you look.\nNo: numbers stay fixed, with the top of the digits\npointing north, like on a map.",
+	"light-level-overlay.config.horizontal_range": "Range",
+	"light-level-overlay.config.horizontal_range.tooltip": "How many blocks out from you the overlay reaches.",
+	"light-level-overlay.config.vertical_range": "Height range",
+	"light-level-overlay.config.vertical_range.tooltip": "How many blocks above and below you the overlay reaches."
+}

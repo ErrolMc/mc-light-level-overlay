@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "light-level-overlay",
+	"version": "${version}",
+	"name": "Light Level Overlay",
+	"description": "Press H to mark the blocks where monsters can spawn, with crosses or light level numbers. Also shows how dark the water is, so you can light rivers and lakes against drowned.",
+	"authors": [
+		"ErrolMc"
+	],
+	"contact": {
+		"sources": "https://github.com/ErrolMc/mc-light-level-overlay",
+		"issues": "https://github.com/ErrolMc/mc-light-level-overlay/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/light-level-overlay/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.errolmc.lightoverlay.client.LightOverlayClient"
+		],
+		"modmenu": [
+			"com.errolmc.lightoverlay.client.config.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"recommends": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "light-level-overlay-gametest",
+	"version": "1.0.0",
+	"name": "Light Level Overlay game tests",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.errolmc.lightoverlay.gametest.MuteAudio"
+		],
+		"fabric-client-gametest": [
+			"com.errolmc.lightoverlay.gametest.LightOverlayClientGameTest"
+		]
+	},
+	"depends": {
+		"light-level-overlay": "*"
+	}
+}
